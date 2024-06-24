@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+}
+div{
+    background-color: rgb(45 64 119 / 90%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 70px;
+    border-radius: 15px;
+    color:white;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+button{
+    background-color: rgb(9, 117, 153);
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: wheat;
+    font-size: 15px;  
+} 
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;    
+
+}

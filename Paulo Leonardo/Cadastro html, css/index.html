@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style1.css">
+
+    <title>Cadastro de Usuário</title>
+    <style>
+    #data-nascimento {
+      border: none;
+      padding: 6px;
+      border-radius: 9px;
+      outline: none;
+      font-size: 15px;
+      cursor: pointer;
+
+    }
+
+    #finalizar {
+      background-image: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+      width: 100%;
+      border: none;
+      padding: 10px;
+      border-radius: 12px;
+      color: rgb(248, 246, 246); 
+      font-size: 15.5px;
+      cursor: pointer; 
+      
+    }
+
+    #finalizar :hover{
+      background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+
+    }
+
+    .input-efeito {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-nome ~ .input-efeito {
+    top: -20px;
+  
+ }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="cadastrar">
+      <form action=" ">
+        <fieldset>
+        <legend><b>Cadastrar Usuário</b></legend>
+           <div class="input-cadastrar">
+            <label for="nome">Nome completo</label>
+            <input type="text"  name="Nome" id="Nome" class="input-nome" required>
+            
+        </div> 
+
+        <br>
+
+        <div class="input-cadastrar">
+          <label for="email">Email</label>
+          <input type="email"  name="email" id="email" class="input-nome" required>
+          
+      </div> 
+
+      <br>
+
+      <div class="input-cadastrar">
+        <label for="Telefone">Telefone</label>
+        <input type="Telefone"  name="Telefone" id="Telefone" class="input-nome" required>
+       
+    </div> 
+
+    
+    <p>Sexo</p>
+    <input type="radio" id="feminino" name="genero" value="feminino" required>
+    <Label for="feminino">Feminino</Label>
+    
+    <br>
+
+    <input type="radio" id="masculino" name="genero" value="masculino" required>
+    <label for="masculino">Masculino</label>
+
+    <br>
+
+    <input type="radio" id="outro" name="genero" value="outro" required>
+    <label for="outro">Outro</label>
+
+    <br>
+    <br>
+
+
+      <label for="data-nascimento"><b>Data de Nascimento</b></label>
+      <input type="date"  name="data-nascimento" id="data-nascimento" required>
+      
+  
+  <br>
+  <br>
+
+  <div class="input-cadastrar">
+    <label for="usuario">Escolha Nome de Usuário</label>
+    <input type="usuario"  name="usuario" id="usuario" class="input-nome" required>
+    
+</div> 
+
+     <br>
+
+      <div class="input-cadastrar">
+        <label for="Senha">Senha</label>
+        <input type="Senha"  name="Senha" id="Senha" class="input-nome" required>
+        
+    </div> 
+
+    <br>
+
+    <div class="input-cadastrar">
+      <label for="confirmar senha">confirmar senha</label>
+      <input type="confirmar senha"  name="confirmar senha" id="confirmar senha" class="input-nome" required>
+      
+  </div> 
+
+  <BR>
+     
+    <button name="finalizar" id="finalizar">Cadastrar</button>
+
+
+      </fieldset>
+
+      </form>
+    
+    </div>
+    
+</body>
+
+</html>

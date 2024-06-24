@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid rgb(112, 115, 122);
+    border-radius: 5px;
+    background-color: rgb(45 64 119 / 90%);
+}
+
+h1 {
+    text-align: center; 
+}
+
+.estoque-lista { 
+    list-style: none;
+    padding: 0;
+}
+
+.produto {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.remover-btn,
+.adicionar-btn {
+    background-color: #ca8c1a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.remover-btn {
+    margin-right: 5px;
+}
+
+.adicionar-btn {
+    margin-left: 5px;
+}
+
+.quantidade {
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+h2 {
+color: rgb(145, 145, 150);
+
+}
+
+h1 {
+    color: #ccc;
+}
+
+span {
+    color: #ccc;
+}

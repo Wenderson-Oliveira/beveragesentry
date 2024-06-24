@@ -1,0 +1,109 @@
+body, ul,li,p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-image: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+
+}
+
+.header{
+    display: flex;  
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#imagemmenu{
+    border: 3px  solid rgb(236, 237, 243); 
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+
+.menu Li a {
+    display: block;
+    padding: 10px;
+    background: orange;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.botão {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;   
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.botão button{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;   
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#imagemgestor{
+    border-radius: 200px;
+    border: 3px  solid rgb(236, 237, 243);   
+    cursor: pointer;
+}
+
+.acesso {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 100px;
+        align-items: center;    
+        text-align: center;   
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+}
+#imagem1{
+    border-radius: 200px;
+    border: 3px  solid rgb(236, 237, 243);   
+    cursor: pointer;
+}
+    
+        
+#imagem2{
+    border-radius: 200px;
+    border:3px  solid rgb(236, 237, 243);
+    cursor: pointer;
+}
+ 
+#imagem3{
+        border-radius: 200px;
+        border: 3px solid rgb(236, 237, 243);
+        cursor: pointer;
+    }
+
+.footer p {
+        text-align: center;   
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(235, 235, 248);
+}

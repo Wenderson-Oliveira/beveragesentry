@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script defer src="./crud-relatoriovendas.js"></script>
+<script defer src="relatoriovendas.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Selecionar Funcionários</title>
+<link rel="stylesheet" type="text/css" href="relatoriovendas.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <a href="../../Gustavo/relatorio.html">Voltar</a>
+         <h1>Relatorio de Vendas</h1>
+    <br><br>
+  <form>
+    <h2>Selecione um funcionário</h2>
+      <select id="funcionarios" name="funcionarios">
+        <option value=""></option>
+    </select>
+    <br><br>
+    <label for="ano"><h3>Selecione o ano</h3></label>
+<select id="ano">
+  <option value=""></option>
+  <option value="2024">2024</option>
+  <option value="2025">2025</option>
+  <option value="2026">2026</option>
+  <option value="2027">2027</option>
+  <option value="2028">2028</option>
+  </select>
+<br><br>
+<br><br>
+    <input type="submit" value="Emitir Relatório">
+      </form>
+</div>
+<div id="areaGrafico">
+  <h3>Valor vendido</h3>
+  <canvas id="grafico"></canvas>
+
+  </div>
+
+</body>
+</html>

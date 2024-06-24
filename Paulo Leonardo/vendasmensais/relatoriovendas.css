@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+    padding: 20px;
+  }
+  
+  h2 {
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    flex-direction: row;
+    text-justify: auto;
+  }
+  
+  h1 {
+    color: white;
+    align-items: center;
+    text-justify: auto;
+    font-size: 30px;
+    justify-content: center;
+
+  }
+  .form-container {
+    background:rgb(45 64 119 / 90%);
+    max-width: 400px;
+    margin: auto;
+    align-content:center;
+    background-color: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    border-color: wheat;
+  }
+  
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-container select:focus {
+    border-color: rgb(19, 18, 18);
+  }
+  
+  .form-container input[type="submit"] {
+    background-color:  #ca8c1a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: darkorange;
+  }
+  
+  #areaGrafico {
+    max-width: 50%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  #areaGrafico h3 {
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #grafico {
+    border: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+  }
+  h3 {
+    color: white;
+    align-content: center;
+    font-size: 15px;
+    flex-direction: row;
+    text-justify: auto;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover{
+    transition: 1s;
+    color: #ca8c1a;
+  }

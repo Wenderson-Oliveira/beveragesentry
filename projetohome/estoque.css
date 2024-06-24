@@ -1,0 +1,93 @@
+body{ 
+    background-image: linear-gradient(45deg, rgb(31 60 97), rgb(0 0 0));
+}
+
+.container1{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+}
+
+header{
+    justify-content: start;
+    align-items: start;
+    background-color: cadetblue;
+    
+    
+}
+
+.btnsair {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    width: 1700px;
+    padding: 15px;
+
+}
+
+.noclass{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tluser{
+    display: flex;
+    width: 180px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+ .imgf{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    align-items: center;
+    
+
+ }
+
+ .imagenslayout{ 
+    
+    height: 400px;
+    width: 355px;
+    color: rgb(255, 255, 255);
+    border-radius: 10%;
+    background-color: rgb(31, 55, 83);
+
+ }
+
+.imagenslayout:hover{
+    color:rgb(55, 224, 210);
+    transition: 0.7s all;
+    cursor: pointer;
+    background-color: rgb(31, 55, 72);
+    width: 350px;
+
+}
+
+ p{
+    font-size: 55px;
+    font-weight:bold;
+ }
+
+ .user1 {
+    font-size: 30px;
+    background-color: rgb(62, 87, 116);
+    border-radius: 10px;
+    color: white;
+
+ }

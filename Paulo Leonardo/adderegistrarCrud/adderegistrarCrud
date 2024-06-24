@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar estoque</title>
+    <link  rel="stylesheet" href="adderegistrar.css">
+    <script defer src="adderegistrar.js"></script>
+
+</head>
+<body>
+    <div class="conteiner">
+        <div class="conteiner1">
+            <h1><strong> Adicionar Estoque</strong></h1>
+            <input type="text" id="searchInput" placeholder="Buscar Item">
+            <form id="itemForm">
+                <br>
+                <input type="text" id="itemName" placeholder="Nome do Item" required>
+              <br><br>
+                <input type="number" id="itemQuantity" placeholder="Quantidade" required>
+             <br><br>
+                <input type="date" id="itemExpiry" placeholder="Validade" required>
+        
+        
+                <div class="btnenvia">
+                    <button type="submit">Adicionar Item</button>
+                </div>
+            </form>
+        <br>
+            <ul id="itemList"></ul>
+
+    </div>
+
+    
+    
+</body>
+</html>
